@@ -1,0 +1,89 @@
+body {
+  font-family: 'Philosopher', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), #009688), url('dummy-background.jpg');
+  color: #fff; 
+  backdrop-filter: blur(5px);
+}
+
+.top-right-corner {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.handwritten-text {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 24px;
+  color: #3498db;
+}
+
+#customers {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+  border-radius: 8px;
+}
+
+#customers th, #customers td {
+  padding: 12px;
+  text-align: center;
+}
+
+#customers th {
+  background-color: #333;
+  color: #ffffff;
+  }
+
+#timer {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: #e74c3c;
+}
+
+#video {
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #3498db;
+  border-radius: 150px;
+}
+
+#attendanceSheet {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+#attendanceSheet th, #attendanceSheet td {
+  padding: 12px;
+  text-align: center;
+}
+
+#attendanceSheet th {
+  background-color: #333;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 600px) {
+  #customers, #attendanceSheet {
+      width: 100%;
+  }
+}
+
+element.style {
+  border: 16px solid black;
+}

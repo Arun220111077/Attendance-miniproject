@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Philosopher', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), #009688), url('dummy-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+}
+
+header {
+  text-align: center;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#customers {
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+#customers th, #customers td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#customers th {
+  background-color: rgba(0, 150, 136, 0.8);
+  color: #fff;
+}
+
+button {
+  background-color: #e91e63;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c2185b;
+}
+
+#studentLink {
+  display: inline-block;
+  margin-top: 20px;
+  color: #e91e63;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #e91e63;
+  transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+#studentLink:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #c2185b;
+  color: #c2185b;
+}
